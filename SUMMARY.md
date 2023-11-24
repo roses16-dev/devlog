@@ -9,3 +9,8 @@
   * [TypeScript](week_01/week_01_02.md)
   * [React](week_01/week_01_03.md)
   * [Testing Library](week_01/week_01_04.md)
+  * [Parcel & ESLint](week_01/week_01_05.md)
+
+* [Week 02](week_02/week_02.md)
+  * [JSX](week_02/week_02_01.md)
+  
