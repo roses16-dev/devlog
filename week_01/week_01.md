@@ -1,3 +1,7 @@
-# Week 01
+# Week 01 : 개발 환경 세팅
 
-1주차에 배운 내용 목차
+1. 개발 환경 세팅
+2. TypeScript
+3. React
+4. Testing Library
+5. Parcel&ESLint
