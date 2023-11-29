@@ -14,3 +14,5 @@
 * [Week 02](week_02/week_02.md)
   * [JSX](week_02/week_02_01.md)
   
+* [React로 사고하기](03_thinking_in_react/00_summary.md)
+  * [1. React Component](03_thinking_in_react/01_react_component.md)
