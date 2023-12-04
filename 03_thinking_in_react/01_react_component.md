@@ -44,22 +44,19 @@ HTML이 너무 커질때는 CSS에서 쓰는 셀렉터(주로 class)를 기준�
 (이 방법이 더 좋아 보인다.)
 ex) [{과일, 사과}, {과일, 딸기}, {야채, 오이}, {야채, 당근}] → [{과일, [사과, 딸기]}, {야채, [오이, 당근]}]
 
-
-
-
-type 들을 모아놓는 방법
-src/types.ts 한가지 파일에 간단하게 모아두기
-
-types 폴더에 타입마다 모아두기
+컴포넌트 뿐 아니라 함수와 타입도 외부 파일로 빼내어 쪼갤 수 있다.
+함수 : `src/utils/함수명.ts`
+타입 : `src/types.ts` 한가지 파일에 간단하게 모아두기 또는 `src/types/타입이름.ts` 폴더에 여러 타입이름 파일을 모아두기
 
 ```ts
-// Product.ts
+// src/types/Product.ts
 interface Product {
 	category: string;
 	price: string;
 	stocked: boolean;
 	name: string;
 }
+
 export default Product
 ```
 
@@ -73,3 +70,6 @@ interface와 type 내 확장 기능들을 이용하여 다양한 방식으로 Pr
 
 
 🚩 Reflect.get() 알아보자
+
+💬 그동안 여러 페이지에서 반복되는 컴포넌트만 분리했었는데 극한의 컴포넌트 쪼개기를 만나고 나니 가독성이 좋아진다는게 이런거구나. 깨달았다.
+다만 이런 방식으로 큰 페이지를 제작하면 components폴더가 터져나가지 않을까?
