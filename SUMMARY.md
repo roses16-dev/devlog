@@ -20,3 +20,4 @@
 
 * [React Hooks](04_react_hooks/00_summary.md)
   * [1. Express](04_react_hooks/01_express.md)
+  * [2. Fetch API & CORS](04_react_hooks/02_fetch_cors.md)
