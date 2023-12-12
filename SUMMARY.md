@@ -22,4 +22,7 @@
   * [1. Express](04_react_hooks/01_express.md)
   * [2. Fetch API & CORS](04_react_hooks/02_fetch_cors.md)
   * [3. React Hooks](04_react_hooks/03_00_react_hooks.md)
-    * [3-1. useEffect](04_react_hooks/03_01_useeffect.md.md)
+    * [3-1. useEffect](04_react_hooks/03_01_useeffect.md)
+    * [3-2. useRef](04_react_hooks/03_02_useref.md)
+    * [3-3. Custom Hook](04_react_hooks/03_03_custom_hook.md)
+    * [3-4. usehooks-ts](04_react_hooks/03_04_usehooks_ts.md)
