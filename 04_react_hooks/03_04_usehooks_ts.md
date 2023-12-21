@@ -3,7 +3,8 @@
 [usehooks-ts](https://usehooks-ts.com/)
 
 모든 Hook에 대한 코드가 웹 사이트에 직접 노출되어있어 위 사이트를 참조하는 것이 좋다.
-toggle, increase 등 자주 사용하는 기능을 구현한 hook을 모아두었다. custom hook을 만들 때 영감을 얻는 용도.
+toggle, increase 등 자주 사용하는 기능을 구현한 hook을 모아두었다.
+custom hook을 만들 때 영감을 얻을 수 있다.
 
 ## 설치
 
